@@ -1,0 +1,33 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,246,121,0.6615896358543417) 28%, rgba(0,212,255,1) 100%);    background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #c64242;
+    margin-bottom: 60px;
+    font-size: xx-large;
+  }
+  
+  button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #283d54;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
